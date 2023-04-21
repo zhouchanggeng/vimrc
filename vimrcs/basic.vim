@@ -213,7 +213,7 @@ map <silent> <leader><cr> :noh<cr>
 
 " Smart way to move between windows
 map <C-j> <C-W>j
-map <C-k> <C-W>k
+"map <C-k> <C-W>k
 map <C-h> <C-W>h
 map <C-l> <C-W>l
 
@@ -232,6 +232,8 @@ map <leader>to :tabonly<cr>
 map <leader>tc :tabclose<cr>
 map <leader>tm :tabmove 
 map <leader>t<leader> :tabnext 
+
+map <C-k> <C-v>
 
 " Let 'tl' toggle between this and the last accessed tab
 let g:lasttab = 1
