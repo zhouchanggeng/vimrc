@@ -385,3 +385,5 @@ function! VisualSelection(direction, extra_filter) range
 endfunction
 
 let g:snipMate = { 'snippet_version' : 1 }
+
+set nu
